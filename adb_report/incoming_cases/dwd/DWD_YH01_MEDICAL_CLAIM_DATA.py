@@ -1,18 +1,18 @@
 import pymysql
 
 # 源数据库连接配置
-source_host = 'rr-uf636kzrob17osr7j.mysql.rds.aliyuncs.com'
+source_host = 'rr-uf636kz**************uncs.com'
 source_port = 3306
-source_user = 'prd_readonly'
-source_password = '7MmY^nEJ3fQhysj=B'
-source_db_name = 'claim_prd'
+source_user = 'pr**************nly'
+source_password = '7M***************Qhysj=B'
+source_db_name = 'cl*************d'
 
 # 目标数据库连接配置
-target_host = 'am-uf61afo16ust6f600167320.ads.aliyuncs.com'
+target_host = 'am-uf61af**********************uncs.com'
 target_port = 3306
-target_user = 'claim_all'
-target_password = 'S#5DH1ar%*1n'
-target_db_name = 'claim_ods'
+target_user = 'cla***********ll'
+target_password = 'S#*************1n'
+target_db_name = '********ods'
 
 # 每次批量插入的记录数量，可根据实际情况调整
 batch_size = 1000

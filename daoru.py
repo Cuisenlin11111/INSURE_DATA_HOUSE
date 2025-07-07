@@ -3,11 +3,11 @@ from datetime import datetime
 import openpyxl
 
 # 阿里云AnalyticDB for MySQL的相关参数
-host = 'am-uf61afo16ust6f600167320.ads.aliyuncs.com'
+host = 'am-uf*******************ncs.com'
 port = 3306
 user = 'claim_all'
-password = 'S#5DH1ar%*1n'
-db_name = 'claim_dim'
+password = 'S#*****%*1n'
+db_name = 'cl*****dim'
 
 # 创建连接
 connection = pymysql.connect(host=host,

@@ -5,11 +5,11 @@ from database import DatabaseConnection
 
 
 # 数据库连接信息
-host = 'rr-uf636kzrob17osr7j.mysql.rds.aliyuncs.com'
+host = 'rr-uf63**********************cs.com'
 port = 3306
-user = 'prd_readonly'
-password = '7MmY^nEJ3fQhysj=B'
-db_name = 'claim_prd'
+user = 'p***************nly'
+password = '7M*******************sj=B'
+db_name = 'c****************d'
 
 
 def get_sql_query():

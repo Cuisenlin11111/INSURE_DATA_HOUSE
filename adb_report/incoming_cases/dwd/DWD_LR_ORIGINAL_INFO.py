@@ -11,11 +11,11 @@ last_month_time = last_month_time.replace(day=1)
 last_month = last_month_time.strftime('%Y-%m')
 
 # 阿里云 AnalyticDB for MySQL 的相关参数 
-# rr-uf636kzrob17osr7j.mysql.rds.aliyuncs.com
-source_host = 'rr-uf636kzrob17osr7j.mysql.rds.aliyuncs.com'
+# rr-uf636*********************************cs.com
+source_host = 'rr-uf636*********************************cs.com'
 source_port = 3306
-source_user = 'prd_readonly'
-source_password = '7MmY^nEJ3fQhysj=B'
+source_user = 'pr***********8ly'
+source_password = '7MmY^*********=B'
 source_db_name = 'claim_prd'
 
 
@@ -30,11 +30,11 @@ source_connection = pymysql.connect(host=source_host,
                                      charset='utf8mb4')
 
 # 连接目标数据库
-target_host = 'am-uf61afo16ust6f600167320.ads.aliyuncs.com'
+target_host = 'am-uf61*************uncs.com'
 target_port = 3306
-target_user = 'claim_all'
-target_password = 'S#5DH1ar%*1n'
-target_db_name = 'claim_all'
+target_user = 'cl***************8all'
+target_password = 'S#*************1n'
+target_db_name = 'cl********all'
 
 target_connection = pymysql.connect(host=target_host,
                                     port=target_port,
