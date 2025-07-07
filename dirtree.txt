@@ -1,0 +1,410 @@
+----pycharm\
+    |----.git\
+    |    |----COMMIT_EDITMSG
+    |    |----config
+    |    |----description
+    |    |----HEAD
+    |    |----hooks\
+    |    |    |----applypatch-msg.sample
+    |    |    |----commit-msg.sample
+    |    |    |----fsmonitor-watchman.sample
+    |    |    |----post-update.sample
+    |    |    |----pre-applypatch.sample
+    |    |    |----pre-commit.sample
+    |    |    |----pre-merge-commit.sample
+    |    |    |----pre-push.sample
+    |    |    |----pre-rebase.sample
+    |    |    |----pre-receive.sample
+    |    |    |----prepare-commit-msg.sample
+    |    |    |----push-to-checkout.sample
+    |    |    |----sendemail-validate.sample
+    |    |    |----update.sample
+    |    |----index
+    |    |----info\
+    |    |    |----exclude
+    |    |----logs\
+    |    |    |----HEAD
+    |    |    |----refs\
+    |    |    |    |----heads\
+    |    |    |    |    |----master
+    |    |    |    |----remotes\
+    |    |    |    |    |----origin\
+    |    |    |    |    |    |----master
+    |    |----objects\
+    |    |    |----01\
+    |    |    |    |----2168c518c8797acc4dc0cc3d97ae9e8b732a8e
+    |    |    |----06\
+    |    |    |    |----0d2c5e8c365bdf4dafbb4e5ef23b4ac65aafd6
+    |    |    |----07\
+    |    |    |    |----a97e860e25abab279615b9eb36ca68baef1976
+    |    |    |----08\
+    |    |    |    |----1a4e4d54914b9a3f42daa8c818cb04505af7f6
+    |    |    |----09\
+    |    |    |    |----2269f8e6e594f978ef396ee02dc8f0f587f971
+    |    |    |----0a\
+    |    |    |    |----00cd60ebc28a4fb7ce4c76bdb37a8cde593299
+    |    |    |----0c\
+    |    |    |    |----674d44962675eae4d4a351b15d7f9988324510
+    |    |    |----0f\
+    |    |    |    |----5e5c604d03f30246c7c47d88fea7b99038452a
+    |    |    |    |----9810eafd704265ea46f69f2c07c1bde8dbf899
+    |    |    |----10\
+    |    |    |    |----5ce2da2d6447d11dfe32bfb846c3d5b199fc99
+    |    |    |----12\
+    |    |    |    |----41339193dccdaae7998978b80412971a71f950
+    |    |    |----13\
+    |    |    |    |----566b81b018ad684f3a35fee301741b2734c8f4
+    |    |    |----14\
+    |    |    |    |----f54f1a96ee893980afe10c833fc9e79faef675
+    |    |    |----15\
+    |    |    |    |----727168a9dfcc4170477293f31134a558245131
+    |    |    |    |----9760d73210521bed548f794e84387a5750af3c
+    |    |    |----19\
+    |    |    |    |----aa17cf2189960539f9881a121de64d37ab7d91
+    |    |    |----1c\
+    |    |    |    |----5d49ef0ff82b32b83435253db5b1917519b829
+    |    |    |----21\
+    |    |    |    |----7051507394efa3385be28657e36c30c864c389
+    |    |    |----23\
+    |    |    |    |----262253247e83baf996b6b6acdcf32e8b22f667
+    |    |    |----24\
+    |    |    |    |----5aa494594d2510aa6e34e777f56ea12d4b9fd0
+    |    |    |    |----881d01fc65da652ea0be5219c7a0a3dc277b15
+    |    |    |    |----aa090e8ff090c9ae1ae1bf4de737ee22bf24c1
+    |    |    |----27\
+    |    |    |    |----7ea9d03e5ed159f88c60b6eca043f575f6a5fc
+    |    |    |----2a\
+    |    |    |    |----1531e1b1ee0d78afff76ca70a26de9a6527cb6
+    |    |    |----2d\
+    |    |    |    |----4d4282e3cdba65942c69aa8f1910c5b9385815
+    |    |    |----2f\
+    |    |    |    |----408855406cb959c0dbaf4b2679b49330d73428
+    |    |    |----31\
+    |    |    |    |----33b3005aa0429f9928f34e2f4b8c85bb55e1a5
+    |    |    |----33\
+    |    |    |    |----721a2a6d45731c02dd951146ff307bdaed58fd
+    |    |    |----35\
+    |    |    |    |----410cacdc5e87f985c93a96520f5e11a5c822e4
+    |    |    |    |----e75cb5abd8fc854c282c82e721643075274a37
+    |    |    |----38\
+    |    |    |    |----16740903a1b214c9e34576847a7de00451630c
+    |    |    |----3c\
+    |    |    |    |----30a83136bc5933594c370335f3dff17592c898
+    |    |    |    |----82a35e7479524549181c33953dc93b203ce5f4
+    |    |    |----3e\
+    |    |    |    |----c8edd70f8c0e53ceead1bd84bf1ea65e1c027b
+    |    |    |----3f\
+    |    |    |    |----5b6ac48a6296cd1073c365df94e3f9c463bea7
+    |    |    |----47\
+    |    |    |    |----99a92612eae2e5186d6fee66e8a137b4b5857f
+    |    |    |----48\
+    |    |    |    |----13d1c1accf8f29fd7cd244dd39bcd38fc3bd84
+    |    |    |----4b\
+    |    |    |    |----33a341e3157c0fdb138729804897045d213837
+    |    |    |----51\
+    |    |    |    |----dee2143d1be0a0bc84dd79dde81121610427ab
+    |    |    |----53\
+    |    |    |    |----ddaf46014cc0c4c2230b731425e6bd67f80ccd
+    |    |    |----5b\
+    |    |    |    |----89a0d3428f9618605d794b806475b056b8da44
+    |    |    |----60\
+    |    |    |    |----193a71ef063ddbe2e7e6a8fef24124567bc86f
+    |    |    |----63\
+    |    |    |    |----ef65e359e2e16fbf55a633a3f41e4b2b134e3e
+    |    |    |----64\
+    |    |    |    |----1cbe0abba0a79fdc141769e3e1500d2925f752
+    |    |    |----67\
+    |    |    |    |----564b73118c579f00f8576866866314aa0bf07d
+    |    |    |----68\
+    |    |    |    |----a008606dce6243f85fe5fc388b4240adc6227b
+    |    |    |    |----cf97f193e413291c963b6063275274a2b693de
+    |    |    |----6b\
+    |    |    |    |----5192f65c7140a2617a37b2c56665e2c59b364b
+    |    |    |----6c\
+    |    |    |    |----0b8635858dc7ad44b93df54b762707ce49eefc
+    |    |    |----6d\
+    |    |    |    |----547afa7ea4f2bc87883db9bc5565f641d0cdcf
+    |    |    |    |----902f0f58d11a45781adae5e27752a4d7c1d023
+    |    |    |    |----b0192707bc744916e018af95f5fc5f077af1b7
+    |    |    |----6e\
+    |    |    |    |----b4c00e98c917c18272968a4a96f7a4173bd5ea
+    |    |    |----71\
+    |    |    |    |----274a77920e92408484499b157fb92cae663aee
+    |    |    |    |----c7a3541377ac69d1ee573f75651c134eca0aae
+    |    |    |----74\
+    |    |    |    |----87c5b9db7ef6587b62d50ef5468054a6c618f4
+    |    |    |    |----cd10c6169ec9cf709b4f49f8d6555ff1eb3e14
+    |    |    |----75\
+    |    |    |    |----432c0df2d5e2c46416770244c04e673afe24da
+    |    |    |    |----f69f85a192bf89dd7776a97d8434ac8bf41ea3
+    |    |    |----7b\
+    |    |    |    |----10b7119e70875647c785fbff57ed95a7d8f8ab
+    |    |    |----7e\
+    |    |    |    |----97278f2af050d25ef716756fc87954c8bb80bb
+    |    |    |----7f\
+    |    |    |    |----48f71329f1e44dfbc253a8090850a6289dd8a7
+    |    |    |----81\
+    |    |    |    |----1b30059c2352bfec5dcd3deda088559394bbbe
+    |    |    |----82\
+    |    |    |    |----9e67e01f84035638ea95c79f8fc761665e29d3
+    |    |    |----89\
+    |    |    |    |----f9e5338cfdbb9a24491f850da65eac7fd70942
+    |    |    |----8f\
+    |    |    |    |----1f98ee8aac2c3525e9b8387a9f0035c07348ac
+    |    |    |----90\
+    |    |    |    |----576e2af2fce218935e7af3588ccfccad481e39
+    |    |    |----93\
+    |    |    |    |----063a99a16f4bf424c758c197e0dce391a1f51e
+    |    |    |    |----e073f42e224be422e53d3c4ed397e524d2b304
+    |    |    |----96\
+    |    |    |    |----bb5ca49ee6e7875d4b8372e85d3151bfa81f13
+    |    |    |----97\
+    |    |    |    |----824ec9b0149e48c91dce4fee530335b327c686
+    |    |    |----98\
+    |    |    |    |----c529cb0c3c2a8a3dc333a5a54888395efdb48c
+    |    |    |----9a\
+    |    |    |    |----3ae2be3c3e147c32a05987728d43bb1f58b298
+    |    |    |    |----48c181468d85d273ee3370b69466861b05899b
+    |    |    |    |----c27bb39cf4943ec30a8bf2421fcd6ae2275af8
+    |    |    |----9d\
+    |    |    |    |----460cb234980495f5d7121e36c0ec30ffe4d9c8
+    |    |    |----a0\
+    |    |    |    |----27bbfddb907551230a39a00632f6ad97d3e56f
+    |    |    |----a2\
+    |    |    |    |----e2399abf8fb749b306a5e9bc5a5c523b40eb30
+    |    |    |----a4\
+    |    |    |    |----03d558cefbed93734c01cca0971a8baf19e706
+    |    |    |    |----5d6fcf3588d6417153f28e21212a3c6b7f07a2
+    |    |    |    |----f84ff2af9789a58a81dd6c7a41685f3210ae5a
+    |    |    |----a8\
+    |    |    |    |----f10c391305805317ac42666729a9ed4fd40425
+    |    |    |----a9\
+    |    |    |    |----1830a46893743d24187d2cbdcdf0004c2e79e3
+    |    |    |----ad\
+    |    |    |    |----1579edcbeaafaced0f093b661c07bfd3ee22d9
+    |    |    |----b2\
+    |    |    |    |----bdec2d71b6a5ce4ae49efc37516809c50e4d5e
+    |    |    |----b3\
+    |    |    |    |----90f39cbd32aefc2034c55f9f26b6bf0d0b66db
+    |    |    |----b9\
+    |    |    |    |----7140bd86fa3295e00d15672c4276c28a0e5e20
+    |    |    |    |----8946da5217f92c05f7f214ece9c31c442c5be2
+    |    |    |    |----edf6f1143d591a7e5af1f6e9beb921aac32bc2
+    |    |    |----ba\
+    |    |    |    |----9216109807017d62fcc1d6ca24079c4bc0b59e
+    |    |    |----bb\
+    |    |    |    |----098378d9c34a20e6c494495c5cfd2d540179fd
+    |    |    |----bc\
+    |    |    |    |----0377d134cc37ad1a0fa290becdd4442c531453
+    |    |    |----bf\
+    |    |    |    |----23803fd720479bc4989778ad65973504f520d1
+    |    |    |----c6\
+    |    |    |    |----24cb975838a93b100882ebb517d74167768172
+    |    |    |    |----75dfac3a50af0a5b645dffb79117cc615cbb04
+    |    |    |----cb\
+    |    |    |    |----5e25e39d575728b7c549bc8f8c1fdb7ed433df
+    |    |    |----cd\
+    |    |    |    |----305ec767f9c104a65abfbcb16697c0f74d220c
+    |    |    |----ce\
+    |    |    |    |----f5fac3d2a3ec740441e4a0fd17e61c0596ad95
+    |    |    |----cf\
+    |    |    |    |----0c8c360c60e0036d6f31476adbccd47e7f5bcb
+    |    |    |----d0\
+    |    |    |    |----876a78d06ac03b5d78c8dcdb95570281c6f1d6
+    |    |    |----d1\
+    |    |    |    |----4a3522008cfbaa6d0a7902fcaa348765755bff
+    |    |    |----d4\
+    |    |    |    |----0c2178851020ef9466d40f64091e93a1c9138f
+    |    |    |    |----68bbc0da69e79972c33ec66340d707ea7f479a
+    |    |    |    |----7414181d5165b1cc24c9c9eeb6d205292d76df
+    |    |    |----d8\
+    |    |    |    |----c1ecade7a199209ec5bccdeb2fb573bc8bce1d
+    |    |    |----d9\
+    |    |    |    |----ec7c9947b0f306bdc190023ab67f0c2602c2da
+    |    |    |----db\
+    |    |    |    |----79b587d3dbb124eede8a6b962425656c9883b5
+    |    |    |    |----8786c06ed9719181cd25ebe2615cc99c8490eb
+    |    |    |----dc\
+    |    |    |    |----99049053c480073d320ead0ce8d7e03296eed2
+    |    |    |----e2\
+    |    |    |    |----5eb91bfb7234484a617b2ff734088e8d974d27
+    |    |    |----e4\
+    |    |    |    |----5debb6132cee37b4e15e4d422bf481dff51654
+    |    |    |----e5\
+    |    |    |    |----48508418ea2f46af77a0a4f0a730c4d20f924c
+    |    |    |----e6\
+    |    |    |    |----9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+    |    |    |    |----dde36182c060ceb74e9ae80b2bcf2d4e8ad2c2
+    |    |    |----e9\
+    |    |    |    |----e27a2cf916ab05d87c3f68a010eb0296cdcc75
+    |    |    |----ed\
+    |    |    |    |----19c4b962de89271fd18f737a81b04ee8c0e134
+    |    |    |----f1\
+    |    |    |    |----3103644972c10a7eee28947189801c6f4f45c6
+    |    |    |----f3\
+    |    |    |    |----7f8ecde32552f8d55d445f107bcaa73bd5a66f
+    |    |    |----f6\
+    |    |    |    |----119f3176fb7b7cda03e63b72801f823e3a3a80
+    |    |    |----fa\
+    |    |    |    |----a2d8e7437813204f531aa172e7aa989db0dfe7
+    |    |    |    |----fdd1e2c3955c2434af2ebef549c75832e8bf74
+    |    |    |----fb\
+    |    |    |    |----9081cd22d19158647f1cbcb9a104efa5bcf5c2
+    |    |    |----fd\
+    |    |    |    |----cc5c7400efa66000fb1625cb813adf66d48abc
+    |    |    |----ff\
+    |    |    |    |----7b1fa2e3f36bfdd7f0fc191d6f0aee979999d7
+    |    |    |----info\
+    |    |    |----pack\
+    |    |----refs\
+    |    |    |----heads\
+    |    |    |    |----master
+    |    |    |----remotes\
+    |    |    |    |----origin\
+    |    |    |    |    |----master
+    |    |    |----tags\
+    |----.idea\
+    |    |----.gitignore
+    |    |----inspectionProfiles\
+    |    |    |----profiles_settings.xml
+    |    |----misc.xml
+    |    |----modules.xml
+    |    |----pycharm.iml
+    |    |----vcs.xml
+    |    |----workspace.xml
+    |----adb_report\
+    |    |----.idea\
+    |    |    |----.gitignore
+    |    |    |----adb_report.iml
+    |    |    |----inspectionProfiles\
+    |    |    |    |----profiles_settings.xml
+    |    |    |----misc.xml
+    |    |    |----modules.xml
+    |    |    |----vcs.xml
+    |    |    |----workspace.xml
+    |    |----automated_insurance_policy_report\
+    |    |    |----.idea\
+    |    |    |    |----.gitignore
+    |    |    |    |----inspectionProfiles\
+    |    |    |    |    |----profiles_settings.xml
+    |    |    |    |----misc.xml
+    |    |    |    |----modules.xml
+    |    |    |    |----vcs.xml
+    |    |    |    |----workspace.xml
+    |    |    |    |----自动化报表.iml
+    |    |    |----DWD_EXAM_AUTO_POLICY.py
+    |    |----automation_rate\
+    |    |    |----.idea\
+    |    |    |    |----.gitignore
+    |    |    |    |----inspectionProfiles\
+    |    |    |    |    |----profiles_settings.xml
+    |    |    |    |----misc.xml
+    |    |    |    |----modules.xml
+    |    |    |    |----workspace.xml
+    |    |    |    |----自动化率.iml
+    |    |    |----ddl.sql
+    |    |    |----dwd\
+    |    |    |    |----DWD_ALL_FLOW_EFF_MONITOR.py
+    |    |    |    |----DWD_ALL_FLOW_TBC_MONITOR.py
+    |    |    |    |----DWD_ALL_FLOW_TK_MONITOR.py
+    |    |    |----dws\
+    |    |    |    |----DWS_ALL_FLOW_EFF_MONITOR.py
+    |    |    |    |----DWS_ALL_FLOW_EFF_MONTH.py
+    |    |    |    |----DWS_ALL_FLOW_EFF_WEEK.py
+    |    |    |----init\
+    |    |    |    |----dwd\
+    |    |    |    |----dws\
+    |    |----control_panel\
+    |    |----employee_productivity_monitoring\
+    |    |    |----.idea\
+    |    |    |    |----.gitignore
+    |    |    |    |----inspectionProfiles\
+    |    |    |    |    |----profiles_settings.xml
+    |    |    |    |----misc.xml
+    |    |    |    |----modules.xml
+    |    |    |    |----vcs.xml
+    |    |    |    |----workspace.xml
+    |    |    |    |----员工产能实时监控.iml
+    |    |    |----dws_employee_comp_num.py
+    |    |    |----dws_employee_pro_df.py
+    |    |    |----dws_lw_employee_comp_num.py
+    |    |    |----dws_project_pro_df.py
+    |    |----incoming_cases\
+    |    |    |----.idea\
+    |    |    |    |----.gitignore
+    |    |    |    |----inspectionProfiles\
+    |    |    |    |    |----profiles_settings.xml
+    |    |    |    |----misc.xml
+    |    |    |    |----modules.xml
+    |    |    |    |----vcs.xml
+    |    |    |    |----workspace.xml
+    |    |    |    |----进件量.iml
+    |    |    |----adb导入数据.py
+    |    |    |----config.ini
+    |    |    |----ddl
+    |    |    |----ddl.ipynb
+    |    |    |----dwd\
+    |    |    |    |----DWD_CLAIM_COUNT_DAY.py
+    |    |    |    |----DWD_CLAIM_COUNT_DAY_PA.py
+    |    |    |    |----DWD_CLAIM_COUNT_DAY_ZA.py
+    |    |    |----dws\
+    |    |    |    |----DWS_CLAIM_COUNT_DAY.py
+    |    |    |    |----DWS_CLAIM_COUNT_MONTH.py
+    |    |    |    |----DWS_CLAIM_COUNT_WEEK.py
+    |    |    |----history\
+    |    |    |    |----dwd\
+    |    |    |    |    |----DWD_CLAIM_COUNT_DAY.py
+    |    |    |    |    |----DWD_CLAIM_COUNT_DAY_PA.py
+    |    |    |    |    |----DWD_CLAIM_COUNT_DAY_ZA.py
+    |    |    |    |----dws\
+    |    |    |    |    |----DWS_CLAIM_COUNT_DAY.py
+    |    |    |    |    |----DWS_CLAIM_COUNT_MONTH.py
+    |    |    |    |    |----DWS_CLAIM_COUNT_WEEK.py
+    |    |    |----init\
+    |    |    |    |----dwd\
+    |    |    |    |    |----DWD_CLAIM_COUNT_DAY.py
+    |    |    |    |    |----DWD_CLAIM_COUNT_DAY_PA.py
+    |    |    |    |    |----DWD_CLAIM_COUNT_DAY_ZA.py
+    |    |    |    |----dws\
+    |    |    |    |    |----DWS_CLAIM_COUNT_DAY.py
+    |    |    |    |    |----DWS_CLAIM_COUNT_MONTH.py
+    |    |    |    |    |----DWS_CLAIM_COUNT_WEEK.py
+    |    |    |----test.py
+    |    |----working_hours_report\
+    |    |    |----.idea\
+    |    |    |    |----.gitignore
+    |    |    |    |----inspectionProfiles\
+    |    |    |    |    |----profiles_settings.xml
+    |    |    |    |----misc.xml
+    |    |    |    |----modules.xml
+    |    |    |    |----vcs.xml
+    |    |    |    |----workspace.xml
+    |    |    |    |----工时报表.iml
+    |    |    |----DWD_PERSON_WORK_VOL.py
+    |----config.ini
+    |----ddl\
+    |    |----dim_ddl.sql
+    |    |----dwd_ddl.sql
+    |    |----dws_ddl.sql
+    |----dirtree.py
+    |----ocr_parsing\
+    |    |----.idea\
+    |    |    |----.gitignore
+    |    |    |----inspectionProfiles\
+    |    |    |    |----profiles_settings.xml
+    |    |    |----misc.xml
+    |    |    |----modules.xml
+    |    |    |----ocr识别.iml
+    |    |    |----vcs.xml
+    |    |    |----workspace.xml
+    |    |----data_export.py
+    |    |----DWD_OUT_HOSPITAL_SUMMARY_DF.py
+    |    |----DWD_OUT_HOSPITAL_SUMMARY_DF_NEW.py
+    |    |----dws_discharge_summary_df.py
+    |    |----dws_discharge_summary_encrypt_df.py
+    |    |----dws_discharge_summary_encrypt_df_new.py
+    |    |----dws_discharge_summary_nlp_handle.py
+    |    |----ernie_bot_api-test.py
+    |    |----sanitize_data_sanitizer.py
+    |    |----sanitize_data_sanitizer_new.py
+    |----requirements.txt
