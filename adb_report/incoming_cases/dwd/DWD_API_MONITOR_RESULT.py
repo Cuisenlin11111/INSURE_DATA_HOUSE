@@ -31,11 +31,11 @@ def calculate_execution_time(func):
 @calculate_execution_time
 def main():
     # 数据库连接信息
-    host = 'rr-uf636kzrob17osr7j.mysql.rds.aliyuncs.com'
+    host = 'rr-uf636kzr4534534*********yuncs.com'
     port = 3306
-    user = 'prd_readonly'
-    password = '7MmY^nEJ3fQhysj=B'
-    db_name = 'claim_prd'
+    user = 'gdfkdhfksdhfksd'
+    password = '7M*************j=B'
+    db_name = 'clagjkghkghprd'
     # 建立数据库连接
     engine = create_engine(f'mysql+pymysql://{user}:{password}@{host}:{port}/{db_name}')
     try:
